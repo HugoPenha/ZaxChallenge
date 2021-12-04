@@ -1,0 +1,90 @@
+{
+    "worker" : [
+        {
+            "name" : "Moto 1",
+            "value" : 2.0,
+            "places" : ["Loja 1", "Loja 2", "Loja 3"]
+        },
+        {
+            "name" : "Moto 2",
+            "value" : 2.0,
+            "places" : ["Loja 1", "Loja 2", "Loja 3"]
+        },
+        {
+            "name" : "Moto 3",
+            "value" : 2.0,
+            "places" : ["Loja 1", "Loja 2", "Loja 3"]
+        },
+        {
+            "name" : "Moto 4",
+            "value" : 2.0,
+            "places" : ["Loja 1"]
+        },
+        {
+            "name" : "Moto 5",
+            "value" : 3.0,
+            "places" : ["Loja 1", "Loja 2", "Loja 3"]
+        }
+    ],
+    
+    "store" : [
+        {
+            "name" : "Loja 1",
+            "order" : [
+                {
+                "name" : "Pedido 1",
+                "price" : 50.0
+                },
+                {
+                "name" : "Pedido 2",
+                "price" : 50.0
+                },
+                {
+                "name" : "Pedido 3",
+                "price" : 50.0
+                }
+            ],
+            "tax" : 0.05
+        },
+        {
+            "name" : "Loja 2",
+            "order" : [
+                {
+                "name" : "Pedido 1",
+                "price" : 50.0
+                },
+                {
+                "name" : "Pedido 2",
+                "price" : 50.0
+                },
+                {
+                "name" : "Pedido 3",
+                "price" : 50.0
+                },
+                {
+                "name" : "Pedido 4",
+                "price" : 50.0
+                }
+            ],
+            "tax" : 0.05
+        },
+        {
+            "name" : "Loja 3",
+            "order" : [
+                {
+                "name" : "Pedido 1",
+                "price" : 50.0
+                },
+                {
+                "name" : "Pedido 2",
+                "price" : 50.0
+                },
+                {
+                "name" : "Pedido 3",
+                "price" : 100.0
+                }
+            ],
+            "tax" : 0.15
+        }
+    ]
+}
